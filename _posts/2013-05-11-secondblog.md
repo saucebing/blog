@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Hello World
+category: test
 ---
 
 ##我的第二篇博客
