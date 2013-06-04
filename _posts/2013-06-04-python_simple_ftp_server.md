@@ -12,4 +12,4 @@ category: python
 
 ###Next you can type the URL: localhost:8000 and you will see what mystery happen
 
-![图片无法显示](/image/6-4-1.eps "title")
+![图片无法显示](/image/6-4-1.png "title")
