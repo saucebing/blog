@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Use netfilters/iptables as router
-category: Linux_tools
+category: Linux
 ---
 
 ##{{ page.title }}
