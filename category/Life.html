@@ -1,0 +1,20 @@
+---
+layout: default
+title: Welcome
+category: index
+---
+
+<h2>{{ page.title }}</h2>
+
+<p>latest paragraph</p>
+
+<ul>
+	{% for post in site.posts %}
+	{% if post.category == 'Life' %}
+
+		<li>{{ post.date | date_to_string }}  {{ post.category }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+
+	{% endif %}
+	{% endfor %}
+
+</ul>
